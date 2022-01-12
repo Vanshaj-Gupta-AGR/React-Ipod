@@ -9,7 +9,7 @@ class Artists extends React.Component{
 
                  <div style={styles.titleBar}>
                         <p style={{fontWeight:'bold'}}>iPod</p>
-                        <img style={styles.battery} src="https://cdn-icons-png.flaticon.com/512/31/31570.png"></img>
+                        <img style={styles.battery} src="https://image.flaticon.com/icons/svg/3103/3103446.svg"></img>
                     </div>
 
                 <div style={styles.info}>
@@ -17,7 +17,7 @@ class Artists extends React.Component{
                     </div>
                     
                     <div style={styles.subInfo}>
-                        <h4 style={{marginBottom:'0.5rem'}}>IPod.js <span><img style={styles.image} src="https://cdn-icons-png.flaticon.com/512/2/2213.png"/></span></h4>
+                        <h4 style={{marginBottom:'0.5rem'}}>IPod.js <span><img style={styles.image} src="https://image.flaticon.com/icons/svg/953/953909.svg" /></span></h4>
                         <p style={{marginBottom:'0'}}> React Project</p>
                         <p>Made by : Vanshaj Gupta</p>
                     </div>
@@ -68,8 +68,7 @@ const styles = {
         justifyContent : 'center'
     },
     subInfo : {
-        alignSelf : 'center',
-        paddingRight: '600px'
+        alignSelf : 'center'
     },
     titleBar : {
         height:'10%',
@@ -86,8 +85,6 @@ const styles = {
     battery :{
         width : '20px',
         height: '20px',
-        paddingRight: '20px',
-        paddingTop: '20px'
     }
 }
 

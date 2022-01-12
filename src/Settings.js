@@ -1,23 +1,22 @@
-import React  from "react";
-
+import React from 'react';
 
 class Settings extends React.Component{
-
+    
     render(){
-    return (
-        <div style={styles.settings}>
-            <div style={styles.titleBar}>
-                <p styles={{fontWeight: 'bold'}}>ipod</p>
-                <img alt="error"style={styles.battery} src="https://cdn-icons-png.flaticon.com/512/31/31570.png" />
+        return(
+            <div style={styles.settings} >
 
-            </div>
-            <div style={{width : '100%' , height : '90%',display:'flex' , flexDirection : 'row' , justifyContent: 'center'}}>
-                    <img alt="error" style={styles.image} src="https://cdn-icons-png.flaticon.com/512/2099/2099058.png" />
+                <div style={styles.titleBar}>
+                        <p style={{fontWeight:'bold'}}>iPod</p>
+                        <img style={styles.battery} src="https://image.flaticon.com/icons/svg/3103/3103446.svg"></img>
                 </div>
-        </div>
-
-    )
-}
+                <div style={{width : '100%' , height : '90%',display:'flex' , flexDirection : 'row' , justifyContent: 'center'}}>
+                    <img style={styles.image} src="https://image.flaticon.com/icons/svg/929/929435.svg" />
+                </div>
+            </div>
+        );
+    }
+    
 }
 
 const styles = {
@@ -30,8 +29,8 @@ const styles = {
         flexWrap : 'wrap'
     },
     image : {
-        width:'15%',
-        height:'15%',
+        width:'65%',
+        height:'65%',
         alignSelf : 'center'
     },
     titleBar : {
